@@ -1,0 +1,1 @@
+Site criado para cliente fictício utilizando HTML, CSS e JQUERY. Projeto One Page, Responsivo.
