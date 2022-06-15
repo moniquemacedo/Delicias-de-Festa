@@ -17,8 +17,8 @@ debounce = function(func, wait, immediate) {
 // Mudar tab ao click
 $('[data-group]').each(function(){
 	var $allTarget = $(this).find('[data-target]'),
-			$allClick = $(this).find('[data-click]'),
-			activeClass = 'active';
+		$allClick = $(this).find('[data-click]'),
+		activeClass = 'active';
 	
 	$allTarget.first().addClass(activeClass);
 	$allClick.first().addClass(activeClass);
